@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: CSGO-Market
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: csgo
+      username: root
+      password: Alone117
+      authentication-database: admin
+
+# 服务器配置
+server:
+  port: 8080
+
+# 日志配置
+logging:
+  level:
+    root: DEBUG
